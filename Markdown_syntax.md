@@ -76,6 +76,7 @@
 
 ## 1.7. 표
 ```
+(오류 시, 테이블 앞을 줄바꿈 처리)
 | 왼쪽정렬 | 가운데정렬 | 오른쪽정렬 |
 | :--- | :---: | ---: |
 | 심교훈 | 수학 | 85 |
@@ -89,9 +90,3 @@
 | 심교훈 | 수학 | 85 |
 | 문태호 | 영어 | 90 |
 | 황병일 | 국어 | 95 |
-
-|  <center>Header1</center> |  <center>Header2</center> |  <center>Header3</center> |
-|:--------|:--------:|--------:|
-|**cell 1x1** | <center>cell 1x2 </center> |*cell 1x3* |
-|**cell 2x1** | <center>cell 2x2 </center> |*cell 2x3* |
-|**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
