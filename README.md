@@ -1,7 +1,5 @@
-\1. How to use MarkDown syntax
-===
-1.1. 헤더(Headers)
----
+# 1. How to use MarkDown syntax
+## 1.1. 헤더(Headers)
 ```
 # This is a H1
 ## This is a H2
