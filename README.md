@@ -1,5 +1,4 @@
-How to use MarkDown syntax
-===
+1. How to use MarkDown syntax
 1.1. 헤더(Headers)
 ---
 ```
@@ -16,3 +15,5 @@ How to use MarkDown syntax
 #### This is a H4
 ##### This is a H5
 ###### This is a H6
+
+
