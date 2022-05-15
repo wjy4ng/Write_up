@@ -16,4 +16,5 @@
 ##### This is a H5
 ###### This is a H6
 
+2. How to use git command on Linux terminal
 
