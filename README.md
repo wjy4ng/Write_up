@@ -1,4 +1,5 @@
-1. How to use MarkDown syntax
+\1. How to use MarkDown syntax
+===
 1.1. 헤더(Headers)
 ---
 ```
