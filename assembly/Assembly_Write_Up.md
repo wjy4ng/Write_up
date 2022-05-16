@@ -15,4 +15,12 @@ ld a.o // 실행파일 생성
 ./a.out // 실행
 ```
 - - -
-
+### GDB를 이용한 디스어셈블링
+```
+gcc -g a.c // 디버깅할 파일 생성
+gdb a.out // gdb 실행
+set disassembly-flavor intel // AT&T 문법을 intel 문법으로 변환
+disas main // main 함수 디스어셈블링
+l // 리스트
+```
+- - -
