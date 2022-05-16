@@ -1,1 +1,1 @@
-## 이곳은 리눅스 Write-Up 페이지입니다.
+## Linux Test Page
