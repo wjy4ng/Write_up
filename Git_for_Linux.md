@@ -29,3 +29,13 @@ git status
 git clone "주소" or git pull
 ```
 - - -
+
+## 깃 브랜치란?
+```
+동일한 소스에서 분산 작업을 하기 위한 여러 통로
+git branch : 브랜치 리스트 확인
+git branch A : A라는 브랜치 생성
+git checkout B : B라는 브랜치로 포커스 이동 (현재 A에 있다는 가정하에)
+git merge B : B의 변동사항을 병합 (현재 A에 있다는 가정하에)
+```
+- - -
