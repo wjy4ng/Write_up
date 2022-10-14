@@ -1,0 +1,3 @@
+class Calculator{
+    void run();
+};
