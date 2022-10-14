@@ -1,0 +1,56 @@
+# 프로젝트
+Best of the Best
+sw 마에스트로
+
+
+# 웹해킹
+webhacking.kr
+HTML
+PHP
+JSP
+ASP
+SQL
+
+
+# 리버싱
+리버싱핵심원리
+코드엔진
+심플즈.kr
+리버싱.kr
+멀웨어분석
+
+
+# 시스템
+Buffer OverFlow
+Format String
+Linux Hacking Tool
+GDB
+WinAPI
+Shell script
+Perl script, python, luby ...
+Socket
+OS
+assembly
+reversing
+kernel hacking
+pwnable
+FTZ
+LOB
+LOB_Fedora Core
+
+
+# 네트워크
+SQL
+oracle
+XML
+Socket
+
+
+
+# 언어
+python
+C
+C++
+java
+visual basic
+go
