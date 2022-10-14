@@ -1,0 +1,11 @@
+gcc -g test.c
+g++ -g test.cpp
+
+gdb a.out
+
+"A&T"
+disassemble main
+
+"Intel"
+set disassembly-flavor intel
+disassemble main

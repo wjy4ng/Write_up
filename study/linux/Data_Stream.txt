@@ -1,0 +1,13 @@
+1) File Descriptor (fd)
+    - 표준 입력 = 0
+    - 표준 출력 = 1   ex) id 1> result
+    - 표준 에러 = 2   ex) id 2> result
+
+2) Redirection : >, >>
+    ex) ls -al > result
+        pwd >> result
+        find / -name "rockyou.txt.gz" 2> /dev/null
+
+3) PIPE : |
+    ex) ls -al | grep "test.txt"
+
