@@ -4,6 +4,7 @@
 1. 깃허브 명령어
 	git add .: Working directory --> Staging area
 	git commit -m "": 
+	git push [remote] [branch]
 
 2. 브랜치
 	git fetch [branch] [local branch:local branch name]: 브랜치 가져오기
