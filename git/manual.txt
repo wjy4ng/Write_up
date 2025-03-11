@@ -1,6 +1,11 @@
-아직은 test 입니다.
-<<<<<<< HEAD
-아직도 test	중입니다.	
-=======
-아직도 test 입니다.
->>>>>>> bbf7136c75b8237730dbc98ec7bf93753b52e046
+0. 깃허브 구조
+	Working directory - Staging Area - Local Repository - Remote Repository
+
+1. 깃허브 명령어
+	git add .: Working directory --> Staging area
+	git commit -m "": 
+
+2. 브랜치
+	git fetch [branch] [local branch:local branch name]: 브랜치 가져오기
+	git branch: branch list
+	git checkout [branch]: 브랜치 전환
