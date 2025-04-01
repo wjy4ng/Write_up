@@ -10,3 +10,5 @@
 	git fetch [branch] [local branch:local branch name]: 브랜치 가져오기
 	git branch: branch list
 	git checkout [branch]: 브랜치 전환
+
+3. test
